@@ -54,3 +54,22 @@ footer ul {
     padding: 1%;
     color: white;
 }
+.flexContainer{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flexContainer div {
+    text-align: center;
+    width: 33%;
+    margin: 2%;
+}
+.flexContainer p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.workGrid div {
+    display: grid;
+}
