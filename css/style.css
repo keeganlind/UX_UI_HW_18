@@ -53,6 +53,9 @@ footer ul {
     text-align: left;
     padding: 1%;
     color: white;
+
+/*!!!!!!!! HW 18 START !!!!!!!!*/
+
 }
 .flexContainer{
     display: flex;
@@ -72,4 +75,27 @@ footer ul {
 }
 .workGrid div {
     display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: rgb(235, 17, 235);
+    grid-template-areas: 
+        "project1 image1"
+        "project2 image2"
+        "project3 image3";
 }
+.gridChild {
+    margin: 15px;
+    padding: 15px;
+    height: 550px;
+}
+.workImg img {
+    grid-area: image1;
+    margin: 1%;
+}
+#workContent {
+    margin-bottom: 1%;
+    grid-area: project1;
+    text-align: start;
+}
+
+
