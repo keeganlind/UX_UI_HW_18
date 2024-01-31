@@ -75,8 +75,8 @@ footer ul {
 }
 .workGrid div {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     background-color: rgb(235, 17, 235);
     grid-template-areas: 
         "project1 image1"
@@ -88,9 +88,14 @@ footer ul {
     padding: 15px;
     height: 550px;
 }
-.workImg img {
+.project1 {
+    grid-area: project1;
+}
+.bsbImg {
     grid-area: image1;
-    margin: 1%;
+}
+.project2 {
+    grid-area: project2;
 }
 #workContent {
     margin-bottom: 1%;
