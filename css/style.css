@@ -1,3 +1,26 @@
+/*!!!!!!!! FONTS !!!!!!!!*/
+h1 {
+    font-family: roca, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+}
+h2 {
+    font-family: roca, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+} 
+h3 a {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}  
+p {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -30,8 +53,8 @@ header ul {
 }
 .content {
     text-align: center;
-    background-color: beige;
-    width: 500px;
+    background-color: rgb(255, 201, 101);
+    width: auto;
     margin: 0 auto;
     padding: 1%;
 }
